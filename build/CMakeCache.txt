@@ -198,15 +198,6 @@ FileHandling_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 FileHandling_SOURCE_DIR:STATIC=/home/alex/dev/c++/FileHandling
 
-//Value Computed by CMake
-project_name_BINARY_DIR:STATIC=/home/alex/dev/c++/FileHandling/build
-
-//Value Computed by CMake
-project_name_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-project_name_SOURCE_DIR:STATIC=/home/alex/dev/c++/FileHandling
-
 
 ########################
 # INTERNAL cache entries
@@ -342,5 +333,5 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //linker supports push/pop state
-_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=FALSE
+_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 
