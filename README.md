@@ -7,7 +7,7 @@ A lightweight C++ command-line utility that automatically removes `.srt` and `.v
 * Removes `.srt` subtitle files
 * Removes `.vtt` subtitle files
 
-## Usage
+## Linux Usage
 
 Run the program from the directory where you want to remove subtitle files:
 
@@ -34,35 +34,10 @@ This will search the current directory and all of its subdirectories for:
 
 and remove any files with those extensions.
 
-### Example
+## Windows Usage
+Run the .exe from the directory where you want to remove subtitle files.
+### Windows version is automatically recursive.
 
-Given a directory like:
-
-```text
-Movies/
-├── movie.mkv
-├── movie.srt
-├── poster.jpg
-│
-├── Season 1/
-│   ├── episode01.mkv
-│   ├── episode01.srt
-│   └── episode02.vtt
-```
-
-Running:
-
-```bash
-./SubtitleRemover -r
-```
-
-will remove:
-
-```text
-Movies/movie.srt
-Movies/Season 1/episode01.srt
-Movies/Season 1/episode02.vtt
-```
 ## Building
 
 ### Requirements
