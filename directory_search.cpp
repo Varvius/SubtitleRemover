@@ -14,8 +14,8 @@ void deleteInDirectories(fs::directory_entry entry){
             deleteInDirectories(entry2);
         }
         else if(entry2.path().extension()==".srt"||entry2.path().extension()==".vtt"){
-            //remove(entry2.path());
-            cout<<"The program will remove this file"<<entry2.path()<<endl;
+            cout<<"The program removed this file"<<entry2.path()<<endl;
+            remove(entry2.path());
         }
     }
 }
