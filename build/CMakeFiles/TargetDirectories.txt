@@ -1,3 +1,0 @@
-/home/alex/dev/c++/FileHandling/build/CMakeFiles/FileHandling.dir
-/home/alex/dev/c++/FileHandling/build/CMakeFiles/edit_cache.dir
-/home/alex/dev/c++/FileHandling/build/CMakeFiles/rebuild_cache.dir

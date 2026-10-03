@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/FileHandling.dir/directory_search.cpp.o CMakeFiles/FileHandling.dir/main.cpp.o -o FileHandling 
