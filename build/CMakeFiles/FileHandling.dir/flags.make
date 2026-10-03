@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/alex/dev/c++/FileHandling/HEADER_FILES
+CXX_INCLUDES = 
 
 CXX_FLAGS = -std=gnu++20
 

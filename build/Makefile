@@ -129,6 +129,30 @@ FileHandling/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/build
 .PHONY : FileHandling/fast
 
+directory_search.o: directory_search.cpp.o
+.PHONY : directory_search.o
+
+# target to build an object file
+directory_search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/directory_search.cpp.o
+.PHONY : directory_search.cpp.o
+
+directory_search.i: directory_search.cpp.i
+.PHONY : directory_search.i
+
+# target to preprocess a source file
+directory_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/directory_search.cpp.i
+.PHONY : directory_search.cpp.i
+
+directory_search.s: directory_search.cpp.s
+.PHONY : directory_search.s
+
+# target to generate assembly for a file
+directory_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/directory_search.cpp.s
+.PHONY : directory_search.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... FileHandling"
+	@echo "... directory_search.o"
+	@echo "... directory_search.i"
+	@echo "... directory_search.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

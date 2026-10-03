@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FileHandling.dir/directory_search.cpp.o"
+  "CMakeFiles/FileHandling.dir/directory_search.cpp.o.d"
   "CMakeFiles/FileHandling.dir/main.cpp.o"
   "CMakeFiles/FileHandling.dir/main.cpp.o.d"
   "FileHandling"
